@@ -1,0 +1,229 @@
+# ============================================
+# Root .gitignore for Full-Stack Project
+# Backend (Python), Frontend (React/Vite), Jupyter Notebooks
+# ============================================
+
+# ==================== PYTHON ====================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+env/
+venv/
+venvv/
+myenv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# ==================== NODE.JS / FRONTEND ====================
+# Dependencies
+node_modules/
+jspm_packages/
+
+# Build outputs
+dist/
+build/
+.vite/
+.cache/
+.parcel-cache/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Yarn Integrity file
+.yarn-integrity
+
+# ==================== JUPYTER NOTEBOOKS ====================
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# ==================== ENVIRONMENT VARIABLES ====================
+# Environment files
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+.env.test
+
+# ==================== DATABASES ====================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==================== MODEL FILES (Large Files) ====================
+# PyTorch models
+*.pth
+*.pt
+
+# TensorFlow/Keras models
+*.h5
+*.pb
+
+# ONNX models
+*.onnx
+
+# Scikit-learn models
+*.pkl
+*.pickle
+*.joblib
+
+# Model checkpoints
+checkpoints/
+models/
+*.ckpt
+
+# ==================== DATA FILES ====================
+# Large data files (uncomment if needed)
+# *.csv
+# *.parquet
+# *.feather
+# *.hdf5
+# data/raw/
+# data/processed/
+
+# ==================== IDE / EDITORS ====================
+# VSCode
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# ==================== OPERATING SYSTEMS ====================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+.directory
+.Trash-*
+
+# ==================== LOGS ====================
+*.log
+logs/
+*.log.*
+
+# ==================== TEMPORARY FILES ====================
+*.tmp
+*.temp
+temp/
+tmp/
+*.bak
+*.swp
+*.swo
+
+# ==================== VERSION CONTROL ====================
+# Git directories
+.git/
+
+# ==================== DOCKER ====================
+# Docker files (optional - uncomment if not tracking)
+# docker-compose.override.yml
+
+# ==================== MISC ====================
+# OS generated files
+.Spotlight-V100
+.Trashes
+
+# Archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Backup files
+*.backup
+*.old
