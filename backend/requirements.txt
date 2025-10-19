@@ -1,0 +1,89 @@
+# # FastAPI Core
+# fastapi==0.115.4
+# uvicorn[standard]==0.32.0
+# python-dotenv==1.0.1
+# python-multipart==0.0.12
+# aiofiles==24.1.0
+
+# # Pydantic
+# pydantic==2.9.2
+# pydantic-settings==2.6.1
+
+# # Data Processing
+# pandas==2.2.3
+# numpy==1.26.4
+# scikit-learn==1.4.2
+
+# # Machine Learning - NLP
+# sentence-transformers==3.1.1
+# transformers==4.44.2
+# tokenizers==0.19.1
+
+# # Image Processing
+# pillow==10.4.0
+
+# # Google Gemini
+# google-generativeai==0.8.3
+
+# # Pinecone
+# pinecone-client==5.0.1
+
+# # LangChain
+# langchain==0.3.7
+# langchain-google-genai==2.0.4
+# langchain-core==0.3.15
+
+# # HTTP and Utilities
+# requests==2.32.3
+# httpx==0.27.2
+# urllib3==2.2.3
+# typing-extensions==4.12.2
+# tqdm==4.66.5
+
+# FastAPI Core
+fastapi==0.115.4
+uvicorn[standard]==0.32.0
+python-dotenv==1.0.1
+python-multipart==0.0.12
+aiofiles==24.1.0
+
+# Pydantic
+pydantic==2.9.2
+pydantic-settings==2.6.1
+
+# Data Processing
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.4.2
+
+# Machine Learning - NLP
+sentence-transformers==3.1.1
+transformers==4.44.2
+tokenizers==0.19.1
+
+# PyTorch (CPU version for Hugging Face Spaces)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1+cpu
+torchvision==0.20.1+cpu
+torchaudio==2.5.1+cpu
+
+# Image Processing
+pillow==10.4.0
+
+# OpenAI
+openai==1.54.3
+
+# Pinecone
+pinecone-client==5.0.1
+
+# LangChain
+langchain==0.3.7
+langchain-openai==0.2.5
+langchain-core==0.3.15
+
+# HTTP and Utilities
+requests==2.32.3
+httpx==0.27.2
+urllib3==2.2.3
+typing-extensions==4.12.2
+tqdm==4.66.5
