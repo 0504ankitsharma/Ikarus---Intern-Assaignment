@@ -6,7 +6,7 @@ AI-powered product discovery platform that recommends furniture products through
 
 ## 🌐 Deployment
 
-* **Frontend**: [www.ikarus-ai.vercel.app](https://www.ikarus-ai.vercel.app)
+* **Frontend**: [www.ikarus-ai.vercel.app]([https://www.ikarus-ai.vercel.app](https://ikarus-ai.vercel.app/))
 * **Hugging Face Space**: [Ikarus – Furniture Recommender](https://huggingface.co/spaces/0504ankitsharma/ikarus)
 
 ---
